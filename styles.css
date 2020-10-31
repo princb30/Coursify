@@ -1,4 +1,8 @@
 /* --------------------Class Selectors--------------------- */
+.brand-logo:hover{
+    height: 78%;
+    width: 63%;
+}
 p.navbar-contents{ 
     font-family: 'Itim', cursive;
     font-size: 1.2rem;
@@ -40,6 +44,22 @@ p.navbar-contents :hover{
     margin-top: 5%;
     opacity: 20%;
 }
+.watermark3{
+    transform: rotate(3deg);
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 15%;
+    opacity : 20%;
+    height: 60%;
+    width: 50%;
+}
+.watermark4{
+    transform: rotate(40deg);
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 20%;
+    opacity: 20%;
+}
 .main-content{
     margin: 1% 5%;
     text-align: center;
@@ -76,7 +96,7 @@ p.navbar-contents :hover{
     height: 6rem;
 }
 .col1{
-    background-color: rgb(180, 236, 243);
+    background-color: rgb(110, 141, 224);
     height: 6rem;
 }
 .card-img{
@@ -96,8 +116,25 @@ p.navbar-contents :hover{
     font-size: 0.75rem;
 }
 
-/* -------------------- ID Selectors--------------------- */
-.brand-logo:hover{
-    height: 78%;
-    width: 63%;
+
+.image-second{
+    height: 3.5em;
+    width: 3.5em;
+    margin: auto;
+    
 }
+.image-second-main{
+    height:22em;
+    width:22em;
+    border-top-right-radius: 60px 50px;
+    border-bottom-right-radius: 60px 50px;
+    border-top-left-radius: 60px 50px;
+    border-bottom-left-radius: 60px 50px;
+    
+}
+.row-second{
+    margin: 3% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -------------------- ID Selectors--------------------- */

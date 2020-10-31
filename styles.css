@@ -1,0 +1,91 @@
+/* --------------------Class Selectors--------------------- */
+p.navbar-contents{ 
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+    color: rgb(92, 89, 89);
+    display: inline-block;
+    padding-top: 9%;
+}
+.container{
+    margin: 2.5%;
+}
+container.row{
+    text-align: center;
+}
+.options{
+    margin: 0.1% 4%;
+}
+.horizontal-top{
+    border: none none ;
+    height: 30px;
+
+}
+.watermark1{
+    transform: rotate(3deg);
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 1%;
+    opacity : 20%;
+    height: 60%;
+    width: 50%;
+}
+.watermark2{
+    transform: rotate(10deg);
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    opacity: 20%;
+}
+.main-content{
+    margin: 1% 5%;
+    text-align: center;
+}
+.first-text{
+    text-align: center;
+    font-size: 270%;
+    font-family: 'Comfortaa', cursive;;
+}
+.first-btn{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.intro-video{
+    width:80%;
+    height:80%;
+    margin-bottom: 2rem;
+    
+}
+.card-margin{
+    margin: 0% 0%
+}
+.cornor-curve{
+    border: 1px rgb(248, 209, 209) solid;
+    border-top-right-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+    margin: 1% 2% 1% 0%;
+    width: fit-content;
+    height: 6rem;
+}
+.col1{
+    background-color: rgb(180, 236, 243);
+    height: 6rem;
+}
+.card-img{
+    float: right;
+    height: 60%;
+    width: 65%;
+    margin: 20% 15% 0% 15%;
+}
+.card-title{
+    padding: 4% 1% 0% 0%;
+    margin-top: auto;
+    font-size: 1rem;
+}
+.card-text{
+    padding: 0% 1% 2% 0%;
+    margin-top: auto;
+    font-size: 0.75rem;
+}
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursify</title>
+    <!-- Bootstrap CSS files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity=
+            "sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS file-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- Navigation bar -->
+<div class="container"> 
+    <div class="row">
+        <div class="col col-lg-6 col-md-6 col-sm-4"><a href="index.html"><img src="logo.jpg"></a></div>
+    </div>
+    <div class="row options">
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="LivCls"  class="navbar-contents" onclick="anyFun();" ><strong> Classes</strong></p>    </div>
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="VidLib"  class="navbar-contents" onclick="anyFun();" ><strong>Video Library</strong></p>  </div>
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="Crs"  class="navbar-contents" onclick="anyFun();" ><strong>Course</strong></p> </div>
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="Bok"  class="navbar-contents" onclick="anyFun();" ><strong>Book</strong></p>  </div>
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="Brd"  class="navbar-contents" onclick="anyFun();" ><strong>Board</strong></p>  </div>
+        <div class="col col-lg-2 col-md-4 col-sm-6">   <p id="Exm"  class="navbar-contents" onclick="anyFun();" ><strong>Exam</strong></p>   </div>
+    </div>
+
+</div>
+<hr class="horizontal-top">
+
+<img src="watermark.jpg" class="watermark1">
+<img src="watermark.jpg" class="watermark2">
+
+<!-- Main Content on Home Page -->
+
+<div class="main-content">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="first-text"> Clarify your <strong style="color:rgb(48, 187, 230)">doubts</strong> <br>in your language
+            </div>
+            <div class="first-btn"><button type="button" class="btn btn-outline-danger"><span><img src="doubt.png" height="15px" > 
+                </span>Ask your doubt now</button>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="intro-video" preload="metadata" poster="intro-video.png" controls>
+                <source src="demo-video.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+    </div>
+</div>
+
+<!-- Achievement Cards on Home Page -->
+<div class="container" style="margin: 5%">
+    <div class="row ">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 card-margin">
+            <div class="row">
+                <div class="col col1">
+                <img src="first-card.png" class="card-img" alt="...">
+                </div>
+                <div class="col cornor-curve">
+                    <h5 class="card-title">40,000+</h5>
+                     <p class="card-text">Doubts cleared</p>
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 card-margin">
+            <div class="row">
+                <div class="col col1">
+                <img src="second-card.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col cornor-curve">
+                    <h5 class="card-title">20+</h5>
+                     <p class="card-text">State Boards</p>
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 card-margin">
+            <div class="row">
+                <div class="col col1">
+                <img src="third-card.png" class="card-img" alt="...">
+                </div>
+                <div class="col cornor-curve">
+                    <h5 class="card-title">1,000,000+</h5>
+                     <p class="card-text">Video Lectures</p>
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 card-margin">
+            <div class="row" >
+                <div class="col col1">
+                <img src="fourth-card.png" class="card-img" alt="...">
+                </div>
+                <div class="col cornor-curve">
+                    <h5 class="card-title">5000+</h5>
+                     <p class="card-text">Books covered</p>
+                </div>
+            </div>
+          
+        </div>
+
+    </div>
+</section>
+
+<!-- External JS file-->
+<script src="actions.js"></script>
+
+<!--JS starter file-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -58,7 +58,11 @@ p.navbar-contents :hover{
     width:80%;
     height:80%;
     margin-bottom: 2rem;
-    
+}
+.intro-video:hover{
+    width:82%;
+    height:82%;
+    margin-bottom: 2rem;
 }
 .card-margin{
     margin: 0% 0%
@@ -92,4 +96,8 @@ p.navbar-contents :hover{
     font-size: 0.75rem;
 }
 
-
+/* -------------------- ID Selectors--------------------- */
+.brand-logo:hover{
+    height: 78%;
+    width: 63%;
+}

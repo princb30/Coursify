@@ -15,6 +15,10 @@ container.row{
 .options{
     margin: 0.1% 4%;
 }
+p.navbar-contents :hover{
+    color: rgb(65, 10, 0);
+    font-size: 1.3rem;
+}
 .horizontal-top{
     border: none none ;
     height: 30px;
